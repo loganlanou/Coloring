@@ -1,50 +1,58 @@
 <!DOCTYPE html>
-<head><title>Optimus Color Scheme Table</title></head>
-<style>
-    table, tr, td {
-        border: 1px solid black;
-    }
-</style>
+
+<head>
+    <title>Optimus Color Scheme Table</title>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+
+        td,
+        th {
+            border: 1px solid black;
+        }
+
+        td,
+        th {
+            margin: 0px;
+            padding: 2px;
+        }
+    </style>
+</head>
 <table>
-    <thead>
-        <th colspan="4">Optimus Prime</th>
-        <tr>
-            <td><p style="background-color:rgb(255, 0, 0);"> 
-         Red</p></td>
-            <td><p style="background-color:rgb(0, 0, 255);"> 
-                Blue</p></td>
-            <td><p style="background-color:rgb(8, 1, 1);"> 
-                Black</p></td>
-            <td><p style="background-color:rgb(130, 130, 131);">
-                Silver</p></td>
-        </tr>
-    </thead>
+    <tr>
+        <td style="text-align: center; border:0px;" colspan="4"><img src="optimus.jpg" alt="Optimus Prime"
+                style="width:300px;height:500px" /></td>
+    </tr>
+    <th colspan="4">Optimus Prime</th>
+    <tr>
+        <td style="background-color:hsl(0,100%,50%,1.0);">
+            Red</td>
+        <td style="color:white;background-color:hsl(240,100%,50%,1.0);">
+            Blue</td>
+        <td style="color:white;background-color:hsl(0,0%,0%,1.0);">
+            Black</td>
+        <td style="color:black;background-color:hsl(0,0%,75.3%,1.0);">
+            Silver</td>
+    </tr>
     <tbody>
         <tr>
-             <td>rgb (255,0,0)</td>
-             <td>Table Body</td>
-             <td>Table Body</td>
-             <td>Table Body</td>
+            <td>Hex #FF0000</td>
+            <td>Hex #0000FF</td>
+            <td>Hex #000000</td>
+            <td>Hex #C0C0C0</td>
         </tr>
         <tr>
-            <td>Table Body</td>
-            <td>Table Body</td>
-            <td>Table Body</td>
-            <td>Table Body</td>
-       </tr>
-         <tr>
-             <td>Table Body</td>
-             <td>Table Body</td>
-             <td>Table Body</td>
-             <td>Table Body</td>
+            <td>rgb (255,0,0)</td>
+            <td>rgb (0,0,255)</td>
+            <td>rgb (8,1,1)</td>
+            <td>rgb (192,192,192)</td>
+        </tr>
+        <tr>
+            <td>hsl(0,100%,50%,1.0)</td>
+            <td>hsl(240,100%,50%,1.0)</td>
+            <td>hsl(0,0%,0%,0)</td>
+            <td>hsl(0,0%,75.3%,1.0)</td>
         </tr>
     </tbody>
-    <tfoot>
-        <tr>
-            <td>Table Footer</td>
-            <td>Table Footer</td>
-            <td>Table Footer</td>
-            <td>Table Footer</td>
-        </tr>
-    </tfoot>
 </table>
